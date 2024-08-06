@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(136, 112, 116);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.movie-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 95%;
+    height: 70%;
+    object-fit: cover;
+    padding: 7px 7px;
+    border-radius: 10px;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.card-rating {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.imdb-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.imdb-link:hover {
+    text-decoration: underline;
+}
